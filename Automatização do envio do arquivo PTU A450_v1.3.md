@@ -37,7 +37,7 @@ graph TD
         
         GetCheck -- Não --> LoginREP[Acessar SGU REP]
         LoginREP --> Download[Baixar Arquivo A450]
-        Download --> Zip[Compactar Arquivos (.zip)]
+        Download --> Zip[Compactar Arquivos em ZIP]
         Zip --> SaveGet[Salvar Checkpoint: Baixado]
         SaveGet --> SendCheck
         GetCheck -- Sim --> SendCheck{Envio Concluído?}
